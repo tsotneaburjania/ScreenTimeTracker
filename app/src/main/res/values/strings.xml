@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ScreenTimeTracker</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="news">News</string>
+    <string name="textview">Textview</string>
+    <string name="simple_screen_time_tracker">Simple Screen time Tracker</string>
+    <string name="n">N</string>
+    <string name="fab">fab</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="one">one</string>
+    <string name="two">two</string>
+    <string name="three">three</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

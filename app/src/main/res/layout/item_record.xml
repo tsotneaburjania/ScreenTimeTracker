@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:layout_margin="20dp"
+    android:backgroundTint="#000000"
+    >
+
+    <TextView
+        android:id="@+id/idTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="TextView"
+        android:textColor="#F7FF00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/minutesTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/textview"
+        android:textColor="#F7FF00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idTv" />
+
+    <TextView
+        android:id="@+id/secondsTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/textview"
+        android:textColor="#F7FF00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minutesTv" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/timestampStartTv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="15dp"-->
+<!--        android:text="@string/textview"-->
+<!--        android:textColor="#F7FF00"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/secondsTv" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/timestampEndTv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="15dp"-->
+<!--        android:text="@string/textview"-->
+<!--        android:textColor="#F7FF00"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/timestampStartTv" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
