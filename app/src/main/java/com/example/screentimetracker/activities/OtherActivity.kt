@@ -8,7 +8,7 @@ import com.example.screentimetracker.adapters.PageAdapter
 import com.google.android.material.tabs.TabLayout
 
 
-class NewsActivity : AppCompatActivity() {
+class OtherActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_news)

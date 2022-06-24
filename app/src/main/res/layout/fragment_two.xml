@@ -1,15 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.FragmentTwo">
+    android:orientation="vertical"
+    tools:context=".fragments.FragmentTwo"
+    android:background="#000">
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textColor="#000"
-        android:textSize="50dp"
-        android:text="GFG 2" />
+        android:layout_height="wrap_content">
 
-</FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F7FF00"
+                android:gravity="center_horizontal"
+                android:textSize="30sp"
+                android:text="@string/word_of_the_day" />
+
+            <TextView
+                android:id="@+id/wordTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="#F7FF00"
+                android:text="@string/word"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/meaningsTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="21sp"
+                android:textColor="#F7FF00"
+                android:text="@string/meanings"
+                android:layout_margin="20dp"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

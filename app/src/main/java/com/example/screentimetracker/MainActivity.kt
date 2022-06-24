@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
-import com.example.screentimetracker.activities.NewsActivity
+import com.example.screentimetracker.activities.OtherActivity
 import com.example.screentimetracker.adapters.RecordListAdapter
 import com.example.screentimetracker.broadcastReceivers.OnOffReceiver
 import com.example.screentimetracker.data.AppDatabase
@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         fab.setOnClickListener {
-            val newsIntent = Intent(this@MainActivity, NewsActivity::class.java)
+            val newsIntent = Intent(this@MainActivity, OtherActivity::class.java)
             this.startActivity(newsIntent);
         }
 

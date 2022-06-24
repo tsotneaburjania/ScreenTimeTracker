@@ -22,4 +22,8 @@
     <string name="three">three</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notification_activity">NotificationView</string>
+    <string name="word_of_the_day">Word of the Day</string>
+    <string name="word">Word:</string>
+    <string name="meanings">Meanings:</string>
 </resources>
