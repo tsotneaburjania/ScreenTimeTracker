@@ -1,18 +1,14 @@
 # Simple Screen Time Tracker
-ეს აპლიკაცია ითვლის სმარტფონის სქრინის ჩართულობის ზანგრძლოვობას. გარდა ამ ფუნქციისა, აპლიკაცია ასევე გთავაზობთ შემთხვევითობის
-პრინციპით არჩეული ინგლისური სიტყვების განმართებებსა და მათი გამოყენების მაგალითებს (სხვადასხვა ფორმაში).
 
-სქრინის ჩართულობის დროის გასაზომად აპლიკაცია იყენებს Android-ის ```BroadcastReceiver```-სა და ორ event-ს:
-```ACTION_SCREEN_ON``` და ```ACTION_SCREEN_OFF```. ამ ორ event-ს შორის არსებული შუალედი სწორედაც რომ წარმოადგენს
-სქრინის ჩართულობის დროს. 
+This app measures screen time of a smartphone. Besides that functionality, it also is able to show the user a random word along its explanation in varios forms and usages.
 
-შემთხვევითი სიტყვის წამოსაღებად აპლიკაცია იყენებს [Random Word API](http:///random-word-api.herokuapp.com/home)-ს, ხოლო ამ სიტყვის შესაბამისი 
-განმარტებებისათვის - [DictionaryAPI](https://dictionaryapi.dev)-ს. 
+For measuring screen time this app makes use of Android's own ```BroadcastReceiver``` and events such as ```ACTION_SCREEN_ON``` and ```ACTION_SCREEN_OFF```. The interval in time between these events is the screen time.
 
-იმისათვის, რომ აპლიკაციამ შეინახოს სქრინის ჩართულობის ინტერვალები, იყენებს Room-ს, ანუ SQLite-ს. 
+This application takes a random word from [Random Word API](http:///random-word-api.herokuapp.com/home), then passes that word to another api, [DictionaryAPI](https://dictionaryapi.dev) where the definitions and forms/usages/examples are found.
 
-სქრინის ყოველ გათიშვაზე აპლიკაცია გამოგიგზავნით შეტყობინებას, რომელიც ჩართულობის დროს 
-გაგაცნობთ.
+For storing screen time history, the app uses Room.
+
+On every screen shut off, a notification comes on with info about the most recent screen time interval.
 
 ![Screen One](https://raw.githubusercontent.com/tsotneaburjania/ScreenTimeTracker/master/app/src/main/res/drawable/scr1.png)
 ![Screen Two](https://raw.githubusercontent.com/tsotneaburjania/ScreenTimeTracker/master/app/src/main/res/drawable/scr2.png)
