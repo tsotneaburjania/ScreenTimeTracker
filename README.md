@@ -14,5 +14,5 @@
 სქრინის ყოველ გათიშვაზე აპლიკაცია გამოგიგზავნით შეტყობინებას, რომელიც ჩართულობის დროს 
 გაგაცნობთ.
 
-![Screen One](C:\Users\Monolith\IdeaProjects\ScreenTimeTracker\app\src\main\res\drawable\scr1.png)
-![Screen Two](C:\Users\Monolith\IdeaProjects\ScreenTimeTracker\app\src\main\res\drawable\scr2.png)
+![Screen One](https://raw.githubusercontent.com/tsotneaburjania/ScreenTimeTracker/master/app/src/main/res/drawable/scr1.png)
+![Screen Two](https://raw.githubusercontent.com/tsotneaburjania/ScreenTimeTracker/master/app/src/main/res/drawable/scr2.png)
